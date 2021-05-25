@@ -5,7 +5,6 @@
 
 # config
 - add a valid webhook
-- set a spam message
-or
-- request to delete a webhook
+- set a spam message or request to delete a webhook
+
 
