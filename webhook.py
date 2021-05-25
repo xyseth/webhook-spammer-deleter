@@ -24,7 +24,7 @@ def webhook():
       try:
         _data = requests.post(webhook, json={'content': message}, headers={'Content-Type': 'application/json'})
         if _data.status_code < 400:
-            print('Sent a new message!')
+            print('Sent {message} to > {webhook}')
       except:
           print(f"{Fore.MAGENTA}Invalid Response From The API{Fore.RESET}")
           print(f"{Fore.RED}Resetting The Program{Fore.RESET}")
